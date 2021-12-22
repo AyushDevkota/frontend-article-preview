@@ -1,0 +1,32 @@
+.visible {
+	background-color: hsl(217, 19%, 35%);
+	padding: 1em 3em;
+	height: 65px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.icon {
+	display: flex;
+	align-items: center;
+	gap: 1.25em;
+}
+
+.icon a {
+	display: flex;
+}
+
+.icon p {
+	letter-spacing: 0.5em;
+	color: hsl(212, 23%, 69%);
+}
+
+.shareImg {
+	padding: 0.5em 0.75em;
+	background-color: hsl(214, 17%, 51%);
+	border-radius: 50%;
+	cursor: pointer;
+}

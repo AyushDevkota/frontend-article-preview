@@ -1,0 +1,21 @@
+.card {
+	position: relative;
+	width: 90%;
+	max-width: 400px;
+	margin: 0 auto;
+	box-shadow: 8px 8px 8px gray;
+	display: grid;
+	grid-template-areas: "banner" "description" "share";
+	background-color: #fff;
+	border-radius: 12px;
+}
+
+@media (min-width: 1024px) {
+	.card {
+		grid-template-columns: 40% 60%;
+		max-width: 800px;
+		grid-template-areas:
+			"banner description"
+			"banner share";
+	}
+}

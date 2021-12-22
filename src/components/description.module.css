@@ -1,0 +1,31 @@
+.description {
+	padding: 2em 3em 1.5em;
+	grid-area: description;
+}
+
+.description h1 {
+	font-size: 16px;
+	color: hsl(217, 19%, 35%);
+	font-weight: 700;
+	margin-bottom: 0.75em;
+}
+
+.description p {
+	color: hsl(214, 17%, 51%);
+	font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+	.description {
+		padding: 2em 3em 0em;
+	}
+
+	.description h1,
+	.description p {
+		line-height: 1.3;
+	}
+
+	.description h1 {
+		font-size: 20px;
+	}
+}
